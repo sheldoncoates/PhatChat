@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Chat</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=1.0, minimum-scale=1.0, maximum-scale=1.0"> 
+    <link rel="stylesheet" type="text/css" href="/css/chatroom.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <ul id="messages">
+        
+      </ul>
+      <ul id="users">
+        
+      </ul>
+      <form action="" id="message-form">
+        <input type="text" name="message" id="message" autocomplete="off" /><button type="submit">Send</button>
+      </form>
+    </div>
+
+    <script id="li-template" type="text/x-handlebars-template">
+      <li>
+        <p>{{from}}</p>
+
+      </li>
+    </script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js"></script>
+  <script type="text/javascript" src="/scripts/chatroom.js"></script>
+
+  
+  </body>
+</html>

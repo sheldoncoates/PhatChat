@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+	<title>Dash</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=1.0, minimum-scale=1.0, maximum-scale=1.0">	
+	<link rel="stylesheet" type="text/css" href="/css/dash.css">
+</head>
+<body>
+	<div class="wrapper">
+		<div class="main">
+			<div id="container">
+				
+			</div>
+			<a href="/logout">Logout</a>
+			<form name="createRoom" id="createRoom" method="POST" action="" accept-charset="utf-8">
+				<input type="text" placeholder="Room name" name="roomName" id="roomName"  />
+				<button type="submit">Create room</button>
+			</form>
+		</div>
+		<ul class="bg-bubbles">
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+	</div>
+
+
+
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js"></script>
+	<script type="text/javascript" src="/scripts/dash.js"></script>
+
+	<script id="container-template" type="text/x-handlebars-template">
+		<h1>Welcome, {{currentUser.name}}</h1>
+		<ul>
+			{{#each rooms}}
+				<li><a href="/chat?roomName={{name}}">{{name}} ({{memberCount}} members)</a></li>
+			{{/each}}
+		</ul>
+	</script>
+</body>
+</html>
