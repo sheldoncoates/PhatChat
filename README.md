@@ -57,7 +57,7 @@ Make sure you have:
 
 ### Installation
 
-1. Once you've cloned Dolphin onto your machine, cd into the PhatChat directory and run: `npm install`. This will install all necessary dependencies.
+1. Once you've cloned PhatChat onto your machine, cd into the PhatChat directory and run: `npm install`. This will install all necessary dependencies.
 2. Next run: `node index` in the terminal window and PhatChat should now be hosted at [http://localhost:4200/](http://localhost:3200/)
 
 
