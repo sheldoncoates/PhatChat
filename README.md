@@ -1,7 +1,6 @@
 <!-- PROJECT SHIELDS -->
 [![Build Status][build-shield]]()
 [![Contributors][contributors-shield]]()
-[![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 
@@ -26,7 +25,6 @@
 * [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
-* [License](#license)
 * [Contact](#contact)
 * [Acknowledgements](#acknowledgements)
 
@@ -61,17 +59,10 @@ Make sure you have:
 2. Next run: `node index` in the terminal window and PhatChat should now be hosted at [http://localhost:4200/](http://localhost:3200/)
 
 
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
 <!-- CONTACT -->
 ## Contact
 
 Sheldon Coates - [LinkedIn](https://www.linkedin.com/in/sheldoncoates/) - sjrcoates@gmail.com 
-
-Project Link: [https://github.com/sheldoncoates/Dolphin](https://github.com/sheldoncoates/Dolphin)
 
 
 <!-- ACKNOWLEDGEMENTS -->
@@ -86,4 +77,4 @@ Project Link: [https://github.com/sheldoncoates/Dolphin](https://github.com/shel
 [license-url]: https://choosealicense.com/licenses/mit
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/sheldoncoates
-[product-screenshot]: /screenshot.png
+[product-screenshot]: /phatchat.gif
